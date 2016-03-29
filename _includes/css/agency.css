@@ -36,7 +36,7 @@ a.active {
 }
 
 a {
-    color: red;
+    color: black;
 
 }
 
@@ -45,7 +45,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: po;
 }
 
 h1,
@@ -87,7 +87,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: white;
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: po;
 }
 
 .btn-primary:active,
@@ -134,6 +134,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl:hover {
     background-color: rgba(0,0,0,0.5);
+    border-color: #00C6B8;
+    color: #00C6B8;
 }
 
 
@@ -182,16 +184,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: white;
+    
+    border: 5px solid #00C6B8;
+    color: #00C6B8;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: white;
-    border:1px solid white;
+    border: 5px solid #00C6B8;
+    color: #00C6B8;
 }
 
 .navbar-default .navbar-collapse {
@@ -263,7 +266,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color:black;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -361,6 +364,11 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+#portfolioTitle{
+    color: #00C6B8;
+    margin-bottom: 50px;    
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -381,8 +389,9 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
+  /*  background: rgba(254,209,54,.9);*/ /* Fallback when no plugin support */
+    background: white;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -397,16 +406,18 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: black;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
+    color: black;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
+
 }
 
 #portfolio .portfolio-item .portfolio-caption {
@@ -670,8 +681,10 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+
+
 section#contact .section-heading {
-    color: #fff;
+    color: #00C6B8;
 }
 
 section#contact .form-group {

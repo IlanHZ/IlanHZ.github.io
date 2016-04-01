@@ -184,16 +184,18 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {  
-    border: 5px solid #00C6B8;
+    border: 7px solid #00C6B8;
     color: #00C6B8;
+    padding-left: 60px;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    border: 5px solid #00C6B8;
+    border: 7px solid #00C6B8;
     color: #00C6B8;
+
 }
 
 .navbar-default .navbar-collapse {
@@ -265,7 +267,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color:black;
+        background-image:url(img/William_Turnbull.jpg);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -277,7 +279,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
+    background-image: url(img/William_Turnbull.jpg);
     background-color: black;
     background-position: center center;
     background-repeat: none;
@@ -327,7 +329,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 183px;
         font-weight: 700;
         line-height: 75px;
     }

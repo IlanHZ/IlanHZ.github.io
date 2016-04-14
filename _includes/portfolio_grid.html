@@ -9,7 +9,8 @@
             </div>
             <div class="row">
             {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <!-- <a href="#" class="portfolio-link" data-toggle="modal"> -->
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -23,7 +24,8 @@
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
-                        <p><a href="{{ post.link }}" id="portfolioLink"> Link </a> </p>
+                        <p><a href="{{ post.link }}" id="portfolioLinkWebsite"> Website </a> </p>
+                        <p><a href="{{ post.link }}" id="portfolioLinkGithub"> Github </a> </p>
                     </div>
                 </div>
             {% endfor %}

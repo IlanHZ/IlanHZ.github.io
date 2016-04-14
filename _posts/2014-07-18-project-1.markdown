@@ -1,6 +1,6 @@
 ---
 title: The Dice of Poker
-subtitle: Like poker, but with dice!
+subtitle: A two players game just like poker, but with dice!
 layout: default
 modal-id: 1
 date: 2014-07-18

@@ -12,6 +12,8 @@ body {
 
 .text-muted {
     color: #777;
+    padding: 14px;
+
 }
 
 .text-primary {
@@ -27,26 +29,24 @@ p.large {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
+.socialLink{
+    color: white !important;
 }
 
-a {
-    color: black;
+.socialLink:hover{
+    color: rgba(0,0,0,0.5) !important;
+}
 
+.main {
+    border: 2px solid white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: rgba(0,0,0,0.2);
 }
 
 
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: po;
-}
+
+
 
 h1,
 h2,
@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
     color: #fff;
     background-color: rgba(0,0,0,0.35);
@@ -204,16 +204,16 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: white;
-    background-color: white;
+    /*background-color: white;*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: white;
+    /*background-color: white;*/
 }
 
 .navbar-default .nav li a {
@@ -234,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: white;
+/*    background-color: white;*/
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -307,31 +307,33 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 50px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 240px;
+        padding-top: 168px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+/*        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        font-size: 20px;
         font-style: italic;
         line-height: 40px;
+        font-family: 'Poiret One', cursive;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 18px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 183px;
-        font-weight: 700;
+        font-size: 43px;
+        font-weight: 100;
         line-height: 75px;
+        font-family: 'Poiret One', cursive;
+
     }
 }
 
@@ -370,14 +372,31 @@ section h3.section-subheading {
     margin-bottom: 50px;    
 }
 
-#portfolioLink {
+#portfolioLinkWebsite {
+ color: black;
+ border: 2px solid #00C6B8;
+ padding: 5px;
+ border-radius: 19px;
+ height: 40px;
+ width: 127px;
+ float: left;
+}
+#portfolioLinkGithub {
     color: black;
-    border: 2px solid black;
+    border: 2px solid #00C6B8;
     padding: 5px;
+    border-radius: 19px;
+    height: 40px;
+    width: 127px;
+    float: right;
 }
 
-#portfolioLink:hover {
-    color: black;
+#portfolioLinkWebsite:hover {
+    background-color: rgba(0,0,0,0.2);
+    
+}
+#portfolioLinkGithub:hover {
+   background-color: rgba(0,0,0,0.2);
 }
 
 #portfolio .portfolio-item {
@@ -401,7 +420,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
   /*  background: rgba(254,209,54,.9);*/ /* Fallback when no plugin support */
-    background: rgba(0, 198, 184, 0.8);
+    background: rgba(22, 50, 71, 0.9);
 
 
 }
@@ -896,4 +915,13 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: white;
+}
+
+.socialMedia {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.fa {
+    margin:15px;
 }

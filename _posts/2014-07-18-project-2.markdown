@@ -12,6 +12,7 @@ client: Start Bootstrap
 category: Web Development
 description: 
 hover: Third Act
-link: https://shielded-shelf-60574.herokuapp.com/
+link: https://powerful-cove-58509.herokuapp.com/
+gitHub: https://github.com/IlanHZ/WDI_Project2
 
 ---

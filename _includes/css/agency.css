@@ -9,6 +9,12 @@ body {
     /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     color: white;
     font-family: 'Poiret One', cursive;
+
+}
+
+.fa-tree {
+    color: black;
+
 }
 
 .text-muted {
@@ -69,18 +75,19 @@ h6 {
 }
 
 #aboutTextDiv {
-    color: #00C6B8;
+    color: #0D273E;
     font-size: 20px !important;
-    width: 60%;
-    float: right;
-
+    width: 100%;
+    
 }
 
 #imageAbout {
     border-radius: 50px;
-    width: 20%;
-    margin-left: 10%;
+    width: 34%;
+    margin-left: 30%;
+    margin-bottom: 27px;
 }
+
 .img-centered {
     margin: 0 auto;
 }
@@ -202,7 +209,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: transparent;
+
 
 }
 
@@ -219,11 +227,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
     border: 7px solid #00C6B8;
     color: #00C6B8;
+    
 
 }
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
+    
 }
 
 .navbar-default .navbar-toggle {
@@ -267,8 +277,26 @@ fieldset[disabled] .btn-xl.active {
     border: 2px solid white;
    
 }
+.navbar-default.navbar-shrink {
+    background-image: url(img/William_Turnbull.jpg);
+}
 
 @media(min-width:768px) {
+
+    #imageAbout {
+        border-radius: 50px;
+        width: 20%;
+        margin-left: 10%;
+    }
+
+    #aboutTextDiv {
+        color: #0D273E;
+        font-size: 20px !important;
+        width: 60%;
+        float: right;
+    }
+
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -276,6 +304,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        
     }
 
     .navbar-default .navbar-brand {
@@ -291,7 +320,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-image:url(img/William_Turnbull.jpg);
+        background-image: url(img/William_Turnbull.jpg);
+ 
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -510,6 +540,7 @@ section h3.section-subheading {
     position: relative;
     padding: 0;
     list-style: none;
+
 }
 
 .timeline:before {
@@ -950,3 +981,11 @@ body {
 .fa {
     margin:15px;
 }
+
+.fa-globe {
+    font-size: 80px !important;
+    margin-left: 40%;
+}
+
+
+

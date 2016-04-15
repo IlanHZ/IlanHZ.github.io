@@ -1,6 +1,6 @@
 ---
 title: Mappers
-subtitle: A travel app, but not just another travel app!
+subtitle: This is a travel app, but not just another travel app!
 layout: default
 modal-id: 2
 date: 2014-07-17

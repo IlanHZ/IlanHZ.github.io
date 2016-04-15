@@ -10,8 +10,8 @@
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-md-6 col-sm-6 portfolio-item">
-                    <!-- <a href="#" class="portfolio-link" data-toggle="modal"> -->
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                    <!-- <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> -->
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 {{ post.hover}}
@@ -22,10 +22,10 @@
                         <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
+                    <!--     <h4>{{ post.title }}</h4> -->
                         <p class="text-muted">{{ post.subtitle }}</p>
-                        <p><a href="{{ post.link }}" id="portfolioLinkWebsite"> Website </a> </p>
-                        <p><a href="{{ post.link }}" id="portfolioLinkGithub"> Github </a> </p>
+                        <a href="{{ post.link }}" id="websitePortfolio"> Website </a> 
+                        <a href="{{ post.link }}" id="githubPortfolio"> Github </a> 
                     </div>
                 </div>
             {% endfor %}

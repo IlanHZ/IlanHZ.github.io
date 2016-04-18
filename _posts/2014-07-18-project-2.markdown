@@ -12,6 +12,7 @@ client: Start Bootstrap
 category: Web Development
 description: 
 hover: Third Act
+tech: Ruby - Sinatra
 link: https://third-act.herokuapp.com/login
 gitHub: https://github.com/IlanHZ/WDI_Project2
 

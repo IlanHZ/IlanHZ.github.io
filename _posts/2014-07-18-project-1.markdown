@@ -1,5 +1,5 @@
 ---
-title: The Dice of Poker
+title: The Dice of Poker 
 subtitle: A two players game just like poker, but with dice!
 layout: default
 modal-id: 1
@@ -11,6 +11,7 @@ project-date: January 2016
 category: Web Development
 description: 
 hover: The Dice of Poker
+tech: JavaScript
 link: https://shielded-shelf-60574.herokuapp.com/
 gitHub: https://github.com/IlanHZ/WDI_Project1
 

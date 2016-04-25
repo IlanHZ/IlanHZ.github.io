@@ -1,18 +1,19 @@
 ---
-title: The Dice of Poker 
-subtitle: A two players game just like poker, but with dice!
+title: Third Act
+subtitle: An app to help seniors to benefit from all the advantages of cohabitation!
 layout: default
-modal-id: 1
-date: 2014-07-18
-img: pokerDice.png
-thumbnail: pokerDice.png
+modal-id: 2
+date: 2014-07-17
+img: thirdAct.png
+thumbnail: thirdAct.png
 alt: image-alt
-project-date: January 2016
+project-date: April 2014
+client: Start Bootstrap
 category: Web Development
 description: 
-hover: The Dice of Poker
-tech: JavaScript
-link: https://shielded-shelf-60574.herokuapp.com/
-gitHub: https://github.com/IlanHZ/WDI_Project1
+hover: Third Act
+tech: Ruby - Sinatra
+link: https://third-act.herokuapp.com/login
+gitHub: https://github.com/IlanHZ/WDI_Project2
 
 ---

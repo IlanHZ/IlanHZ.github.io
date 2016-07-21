@@ -14,5 +14,8 @@ hover: Mappers
 tech: MEAN Stack // Google Maps - Web Sockets
 link: https://mappersapp.herokuapp.com/
 gitHub: https://github.com/IlanHZ/WDI_Project4
-
+description: 'For my final project, I choose to develop a travel app. After travelling for a couple of months in South East Asia last year, I realised that, even if there is a lot of travel apps out there, none of them is really complete and adaptable to the traveller’s needs. This observation brought me to this app: Mappers. My objective was to build an app where all the information would rely on its Community of users, through a social network based on a map.
+This app was developed in a MEAN Stack, with an intensive use of the Google Maps API. I’ve also used Web Sockets to create a global and a private chat.
+The concept is that the user can “draw” on the map the journey he wants to undertake and the app will immediately show him all the events (the Adventures) created by the Community of users and all the users with their live location, within a specific perimeter in the “road” the user has drawn. In this way, you can know exactly what is happening live in every part of the world, get in touch with people out there and plan your trip with the best information.
+This project was a real challenge in terms of functionalities, especially for implementing Web Sockets for the private chat and for creating some functionality for Google Map. '
 ---

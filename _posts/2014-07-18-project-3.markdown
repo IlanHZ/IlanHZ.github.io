@@ -2,7 +2,7 @@
 title: Crossroads
 subtitle: Use the technology to help improving the refugees situation!
 layout: default
-modal-id: 2
+modal-id: 4
 date: 2014-07-17
 img: crossroads.png
 thumbnail: crossroads.png
@@ -14,5 +14,9 @@ hover: Crossroads
 tech: Ajax - NodeJS // Google Maps  - Stripe - Guardian API
 link: https://crossroads-wdi.herokuapp.com/
 gitHub: https://github.com/amaliacardenas/migmatch
+description: 'For this project, we were a team of three. We decided to develop an app related to the current migrant crisis.
+We created a platform with two principal functionalities. First, it allows visitors on the website to donate money to a specific refugee, through the Stripe API. Second, it enables potential hosts to connect with refugees in order to house them for the amount of time where the government haven’t given them a proper housing solution. 
+This app was developed in JavaScript and Ajax, using NodeJS. Moreover, we use the Google Maps API to create a map showing the origin country of each refugee and the Guardian API to have a live feed of news related to the migrant crisis. I especially focused on the Google Map API. 
+This project have been the occasion to develop great teamwork skills and to approach a current disaster using a technological scope.'
 
 ---

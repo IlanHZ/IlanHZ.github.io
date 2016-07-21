@@ -2,7 +2,7 @@
 title: Third Act
 subtitle: An app to help seniors to benefit from all the advantages of cohabitation!
 layout: default
-modal-id: 2
+modal-id: 3
 date: 2014-07-17
 img: thirdAct.png
 thumbnail: thirdAct.png
@@ -15,5 +15,8 @@ hover: Third Act
 tech: Ruby - Sinatra
 link: https://third-act.herokuapp.com/login
 gitHub: https://github.com/IlanHZ/WDI_Project2
+description: 'The idea of this app came from a simple social observation combined with a will of creating something that would impact the society in a positive way. Therefore, I choose to develop an app that would help seniors benefit from all the advantages of cohabitation in order to find a solution to loneliness and expensive rent.
+This app was developed in Ruby, using Sinatra. The users can post their property, that they can view on a map (thanks to the Google Maps API) and get in touch with each other through an internal messaging system. 
+This project was the first time I created a fully functional app, developing crucial skills in back-end as much as in front-end.'
 
 ---

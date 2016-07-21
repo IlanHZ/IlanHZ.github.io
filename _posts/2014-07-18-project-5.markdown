@@ -14,5 +14,10 @@ hover: The Dice of Poker
 tech: JavaScript
 link: https://shielded-shelf-60574.herokuapp.com/
 gitHub: https://github.com/IlanHZ/WDI_Project1
+description: 'For this first project, the objective was to build a two player game in JavaScript.
+
+Being a fan of Poker, I choose to create a game based on the rules of poker, but that is played with five dice instead of cards.
+
+This project really helped me to develop my JavaScript logic and to acquire knowledge in front-end.'
 
 ---

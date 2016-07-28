@@ -1,97 +1,46 @@
 <!-- About Section -->
     <section id="about">
         <div class="container">
+            <div class="projectCube">
+                    <input type="radio" class="cubeButton firstButton" checked id="radio-front" name="select-face"> 
+                    <input type="radio" class="cubeButton" id="radio-back" name="select-face">
+                    <input type="radio" class="cubeButton" id="radio-left" name="select-face">
+                    <input type="radio" class="cubeButton" id="radio-right" name="select-face">
+                    <input type="radio" class="cubeButton" id="radio-top" name="select-face">
+                    <input type="radio" class="cubeButton" id="radio-bottom" name="select-face">
+              <div class="scene">
+                <div class="cube">
+                    <div class="cube-face  cube-face-front">
+                      <img id="frontImage" src="img/linkedinPic2.jpg">
+                    </div>
+                    <div id="backAbout" class="cube-face  cube-face-back">
+                        Passionate about innovation and technology, I’ve been studying Business Administration in Belgium, before immersing myself in the General Assembly Web Development program.
+                        Coding, which was new to me at the time, allowed me to gain great problem solving skills and to develop my creativity, while becoming a real passion.
+                    </div>
+                    <div id="leftAbout" class="cube-face  cube-face-left">
+                        Combining the technical skills I have learned and my interest for business and entrepreneurship, I am now looking to join a team where I could continue to learn web development while being involved in the business process.
+                    </div>
+                    <div id="rightContact" class="cube-face  cube-face-right">
+                      <p>Contact</p>
+                      <ul>
+                        <li>ilaneliehazan@gmail.com</li>
+                        <li><a id="contactLinks" href="https://www.linkedin.com/in/ilaneliehazan">LinkedIn</a></li>
+                        <li><a id="contactLinks" href="https://github.com/IlanHZ">Github</a></li>
+                        <li><a id="contactLinks" href="https://twitter.com/ilanhz">Twitter</a></li>
+                      </ul>
+                    </div>
+                    <div class="cube-face  cube-face-top">
+                      <p>Have a look at my resume and let's get in touch!
+                        <a id="contactLinks" href="/img/education/IlanHazan.pdf" download><i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                      </p>
+                    </div>
 
-         <img id="imageAbout" src="./img/linkedinPic2.jpg">
-
-            <div id="aboutTextDiv">
-
-                Passionate about innovation and technology, I’ve been studying Business Administration in Belgium, before immersing myself in the General Assembly Web Development program.</br></br>
-                Coding, which was new to me at the time, allowed me to gain great problem solving skills and to develop my creativity, while becoming a real passion.</br></br>
-                Combining the technical skills I have learned and my interest for business and entrepreneurship, I am now looking to join a team where I could continue to learn web development while being involved in the business process.</br></br>
-
-                <i class="fa fa-globe" aria-hidden="true"></i>
-
-            </div>
-
-
-
-
-
-           <!--  <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <div class="cube-face  cube-face-bottom"></div>
+                </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
         </div>
     </section>
+
+
+

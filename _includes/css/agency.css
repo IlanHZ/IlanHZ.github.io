@@ -331,6 +331,14 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .scene {
+        margin-left: 39% !important;
+    }
+
+    #radio-front {
+        margin-left: 39% !important;
+    }
 }
 
 header {
@@ -1006,91 +1014,107 @@ body {
 @import "compass/css3";
 
 .projectCube {
-    text-align: center;
-    padding: 50px;
+    margin-left: 100px;
 }
 
 .scene {
-  margin-top: 50px;
-  width: 300px;
-  height: 300px;
-  perspective: 600px;
+    margin-left: 5%;
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    perspective: 600px;
 }
 
 .cube {
     position: relative;
     width: inherit;
     height: inherit;
-    
     transform-style: preserve-3d;
     transition: transform 0.6s;
 }
 
 .cube-face {
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  opacity: 0.8;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0.9;
 }
 .cube-face-front {
-  text-align: center;
-  transform: translate3d(0, 0, 150px);
-  opacity: 1;
+    text-align: center;
+    transform: translate3d(0, 0, 150px);
+    opacity: 1;
 } 
-    #frontImage {
-        width: 50%;
-        height: 60%;
-        margin-top: 20%;
-    }
+#frontImage {
+    width: 46%;
+    height: 60%;
+    margin-top: 20%;
+}
 
 .cube-face-back {
-  background-image: url(img/William_Turnbull.jpg);
-  padding: 63px;
-  transform: rotateY(180deg) translate3d(0, 0, 150px);
+    background-image: url(img/William_Turnbull.jpg);
+    padding: 63px;
+    transform: rotateY(180deg) translate3d(0, 0, 150px);
 } 
-    #backAbout{
-        font-size: 11px;
-    }
+
+#backAbout{
+    font-size: 11px;
+}
 
 .cube-face-left {
-  background-image: url(img/William_Turnbull.jpg);
-  padding: 63px;
-  transform: rotateY(-90deg) translate3d(0, 0, 150px);
+    background-image: url(img/William_Turnbull.jpg);
+    padding: 63px;
+    transform: rotateY(-90deg) translate3d(0, 0, 150px);
 } 
 
 #leftAbout{
     font-size: 11px;
 }
+
 .cube-face-right {
-  background-image: url(img/William_Turnbull.jpg);
-  padding: 63px;
-  transform: rotateY(90deg) translate3d(0, 0, 150px);
+    background-image: url(img/William_Turnbull.jpg);
+    padding: 63px;
+    transform: rotateY(90deg) translate3d(0, 0, 150px);
 } 
 
 #contactLinks {
     color: white;
 }
+
 .cube-face-top {
-  background-image: url(img/William_Turnbull.jpg);
-  transform: rotateX(90deg) translate3d(0, 0, 150px);
+    background-image: url(img/William_Turnbull.jpg);
+    padding: 63px;
+    transform: rotateX(90deg) translate3d(0, 0, 150px);
 } 
+
 .cube-face-bottom {
-  background-image: url(img/William_Turnbull.jpg);
-  transform: rotateX(-90deg) translate3d(0, 0, 150px);
+    background-image: url(img/William_Turnbull.jpg);
+    padding: 63px;
+    transform: rotateX(-90deg) translate3d(0, 0, 150px);
 }
 
+.fa-cloud-download:before {
+    font-size: 35px;
+    opacity: 0.8;
+    margin-left: 53px;
+}
+
+
 #radio-back:checked ~ .scene .cube {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 } 
 #radio-left:checked ~ .scene .cube {
-  transform: rotateY(90deg);
+    transform: rotateY(90deg);
 } 
 #radio-right:checked ~ .scene .cube {
-  transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
 }
 #radio-top:checked ~ .scene .cube {
-  transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
 }  
 #radio-bottom:checked ~ .scene .cube {
-  transform: rotateX(90deg);
+    transform: rotateX(90deg);
+}
+
+.cubeButton {
+    margin-left: 35px !important;
 }
